@@ -1,0 +1,21 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 247, 220);
+    padding: 20px;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: rgb(181, 171, 136);
+    padding: 10px;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
