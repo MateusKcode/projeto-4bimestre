@@ -18,17 +18,15 @@ body {
 
 }
 .login {
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-top: 55px;
-    margin-left: 400px;
-    margin-right: 400px;
-    padding: 250px;
-    padding-top: 30vh;
+    margin: 80px auto; /* espaço do topo + centralização */
+    padding: 40px;
+    width: 400px; /* largura da caixa */
+    height: 400px;
     background-color: #a66246;
     color: white;
-    text-align: center;
 }
 
 
