@@ -8,28 +8,35 @@
     <script src="../javascript/main.js"></script>
 </head>
 <body>
-    <nav class="nav-bar">
-        <h1>Petlândia</h1>
-        <a href="../html/inicio.html">Página Inicial</a>
-        <a href="../html/banho-tosa.html">Banho e Tosa</a>
-        <a href="../html/produtos.html">Produtos</a>
-        <a href="../html/doacao.html">Doação de Pets</a>
-    </nav>
+    <header>
+        <nav class="nav-bar">
+            <h1>Petlândia</h1>
+            <a href="../html/inicio.html">Página Inicial</a>
+            <a href="../html/banho-tosa.html">Banho e Tosa</a>
+            <a href="../html/produtos.html">Produtos</a>
+            <a href="../html/doacao.html">Doação de Pets</a>
+        </nav>
+    </header>
 
-    <div class="login">
-        <h1>Bem vindo(a)!</h1><br>
-        <h2>Faça seu login!</h2>
-        <form>
-            <br>
-            <label for="Email">Seu email: </label>
-            <input type="email">
-            <br><br>
-            <label for="password">Crie uma senha:</label>
-            <input type="password">
-            <br>
-            <label for="submit">Entrar</label>
-            <input type="submit" href="inicio.html">
-        </form>
+<main class="conteudo">
+  <div class="login-container">
+    <h1>LOGIN</h1>
+    <p class="subtitulo">Bem-vindo</p>
+
+    <div class="campo">
+        <label>Usuário:</label>
+        <input type="text">
     </div>
+
+    <div class="campo">
+        <label>Senha:</label>
+        <input type="password">
+  </div>
+
+  <button><a href="inicio.html">Entrar</a></button>
+</div>
+  </div>
+</main>
+
 </body>
 </html>
