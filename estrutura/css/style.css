@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/elastic');
 
 body {
     background-color: #bfe6ef;
@@ -16,9 +17,23 @@ body {
     background-color: #598f8c;
     padding: 25px;
     color: white;
-    font-family: Hangout    ;
-
+    a:not(.petlandia) {
+      font-family:'Poppins', sans-serif;
+    }
+    .petlandia {
+      font-family:'Elastic', sans-serif;
+      font-size: 60px;
+      letter-spacing: 2.4px;
+    }
+    a:not(.active) {
+      color:#5fa4a4
+    }
+    .active {
+      color: #23504e;
+      font-size: 18.4px;
+    }
 }
+
 .login-container {
   background-color: #a66246;
   padding: 40px;
@@ -87,4 +102,13 @@ button:hover {
   background-color: #cfeff4;
 }
 
+.login-entrar {
+  color: #23504e;
+}
 
+.patinhas {
+  height: 200px;
+  height: 200px;
+  margin-top: -160px;
+  margin-left: 720px;
+}
