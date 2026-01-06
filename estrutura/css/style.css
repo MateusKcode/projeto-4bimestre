@@ -112,3 +112,26 @@ button:hover {
   margin-top: -160px;
   margin-left: 720px;
 }
+
+/* Container que controla o layout */
+.produtos {
+  display: flex;
+  margin-top: 5vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  gap: 20px;  /* espaço entre produtos */
+  flex-wrap: wrap; /* quebra linha se faltar espaço */
+}
+
+/* Cada produto */
+.produto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 275px;
+  width: 225px;
+  background-color: #dbffff;
+  padding: 10px;
+  border-radius: 8px;
+}
