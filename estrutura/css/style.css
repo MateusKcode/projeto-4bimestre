@@ -26,11 +26,27 @@ body {
       letter-spacing: 2.4px;
     }
     a:not(.active) {
-      color:#5fa4a4
+      color:#00B3B2;
+      text-shadow: 2px 2px #23504e;
     }
     .active {
       color: #23504e;
       font-size: 18.4px;
+    }
+    a:hover {
+      color:#dbffff;
+    }
+    .btn-login {
+      background-color: #a66246;
+      color: white;
+      padding: 8px 18px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn-login:hover {
+      background-color: #d79a6b;
     }
 }
 
@@ -87,7 +103,6 @@ button {
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
-
 }
 
 button:hover {
@@ -104,6 +119,7 @@ button:hover {
 
 .login-entrar {
   color: #23504e;
+  text-decoration: none;
 }
 
 .patinhas {
@@ -135,3 +151,48 @@ button:hover {
   padding: 10px;
   border-radius: 8px;
 }
+
+/*parte "quem somos?" da página index :)*/
+.quem-somos {
+  background-color: #cfeef3;
+  padding: 60px 0;
+}
+
+.quem-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #5f8f8a;
+  border-radius: 30px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.quem-texto {
+  color: #fff;
+  max-width: 500px;
+}
+
+.quem-texto h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.quem-texto p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.quem-imagens {
+  display: flex;
+  align-items: flex-end;
+  gap: 0px;
+}
+
+.quem-imagens img {
+  width: 200px;
+
+}
+
