@@ -196,3 +196,10 @@ button:hover {
 
 }
 
+.footer-curiosidades {
+  background: #598f8c;
+  color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+}
