@@ -14,11 +14,64 @@
         <a href="../html/index.html">Página Inicial</a>
         <a href="../html/banho-tosa.html" class="active">Banho e Tosa</a>
         <a href="../html/produtos.html">Produtos</a>
-        <a href="../html/doacao.html">Adoação de Pets</a>
+        <a href="../html/doacao.html">Doação de Pets</a>
         <a href="../html/login.html" class="btn-login">Login</a>
     </nav>
-    <footer class="footer-curiosidades">
-        <h3>Curiosidade do dia</h3>
-        <p>🐢 Tartarugas podem viver mais de 100 anos.</p>
-    </footer>
+
+<section class="form-banho-tosa">
+  <h2>Agendamento de Banho & Tosa</h2>
+
+  <form action="#" method="post">
+    
+    <!-- Dados do dono -->
+    <label for="nome-dono">Nome do responsável:</label>
+    <input type="text" id="nome-dono" name="nome-dono" required>
+
+    <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone" name="telefone" placeholder="(99) 99999-9999" required>
+
+    <!-- Dados do pet -->
+    <label for="nome-pet">Nome do pet:</label>
+    <input type="text" id="nome-pet" name="nome-pet" required>
+
+    <label for="tipo-pet">Tipo do pet:</label>
+    <select id="tipo-pet" name="tipo-pet" required>
+      <option value="">Selecione</option>
+      <option value="cachorro">Cachorro</option>
+      <option value="gato">Gato</option>
+      <option value="outro">Outro</option>
+    </select>
+
+    <label for="porte">Porte do pet:</label>
+    <select id="porte" name="porte" required>
+      <option value="">Selecione</option>
+      <option value="pequeno">Pequeno</option>
+      <option value="medio">Médio</option>
+      <option value="grande">Grande</option>
+    </select>
+
+    <!-- Serviço -->
+    <label for="servico">Serviço desejado:</label>
+    <select id="servico" name="servico" required>
+      <option value="">Selecione</option>
+      <option value="banho">Banho</option>
+      <option value="tosa">Tosa</option>
+      <option value="banho-tosa">Banho e Tosa</option>
+    </select>
+
+    <!-- Data -->
+    <label for="data">Data desejada:</label>
+    <input type="date" id="data" name="data" required>
+
+    <!-- Observações -->
+    <label for="observacoes">Observações:</label>
+    <textarea id="observacoes" name="observacoes" rows="4"
+      placeholder="Ex: pet agressivo, alergias, tipo de tosa..."></textarea>
+
+    <!-- Botão -->
+    <button type="submit"><a href="../html/agendado.html">Agendar</a></button>
+
+  </form>
+</section>  
+
 </body>
