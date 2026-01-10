@@ -131,6 +131,7 @@ button:hover {
 
 /* Container que controla o layout */
 .produtos {
+  background-color: #bfe6ef;
   display: flex;
   margin-top: 5vh;
   margin-left: 5vh;
